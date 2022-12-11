@@ -65,6 +65,17 @@ header .contenedor{
 header .contenedor img.logo-img{
     max-height: 95px;
 }
+.toggle-menu{
+    text-decoration: none;
+    color: #111;
+    font-family: 'Marmelad';
+    display: none;
+}
+.toggle-menu::before{
+    content: url(../img/menu-svgrepo.svg);
+    width: 20px;
+    margin-right: 8px;
+}
 header .contenedor nav{
     display: flex;
     align-items: center;
@@ -94,4 +105,48 @@ header .contenedor div.login a:has(p){
     font-family: 'Raleway';
     color: #111;
     margin-left: 15px;
+}
+/* Responsive */
+/* Menu de navegacion*/
+@media only screen and (min-width: 800px) and (max-width: 1070px){
+    header .contenedor{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+@media only screen and (max-width: 799px){
+    header .contenedor nav{
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+    header .contenedor nav span{
+        font-family: 'Marmelad';
+        color: #fff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .toggle-menu{
+        display: flex;
+    }
+    header .contenedor nav{
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 60%;
+        background-color: #6C4B1C;
+        gap: 25px;
+    }
+    header .contenedor nav a{
+        color: #fff;
+    }
+    header .contenedor nav .vl{
+        display: none;
+    }
+    header .contenedor nav.active{
+        display: flex;
+    }
+
 }
