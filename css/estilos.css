@@ -80,6 +80,9 @@ header .contenedor nav{
     display: flex;
     align-items: center;
 }
+header .contenedor nav span{
+    display: none;
+}
 header .contenedor nav a{
     font-family: 'Marmelad';
     font-size: 16px;
@@ -120,6 +123,7 @@ header .contenedor div.login a:has(p){
         transition: all 0.3s ease-in-out;
     }
     header .contenedor nav span{
+        display: block;
         font-family: 'Marmelad';
         color: #fff;
         text-decoration: underline;
