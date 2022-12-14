@@ -138,6 +138,106 @@ header .contenedor div.login a:has(p){
     margin-left: 15px;
     font-size: 1.7rem;
 }
+/*Nosotros*/
+section.nosotros.contenedor{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+section.nosotros.contenedor .col-txt-equipo{
+    width: 40%;
+}
+section.nosotros.contenedor .col-equipo{
+    width: 60%;
+}
+section.nosotros .col-equipo .flechas{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+section.nosotros .flechas .flecha-slider{
+    cursor: pointer;
+}
+section.nosotros h1{
+    font-family: 'Raleway';
+    font-weight: 500;
+    margin-bottom: 58px;
+    color: hsl(35, 59%, 27%);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+section.nosotros .col-txt-equipo p{
+    font-family: 'Raleway';
+    font-weight: 300;
+    line-height: 2.8rem;
+    letter-spacing: 0.04em;
+}
+section.nosotros .col-imgs-equipo{
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+    grid-auto-flow: column;
+    gap: 20px;
+    color: #111111;
+}
+section.nosotros .col-imgs-equipo img{
+    max-width: 100%;
+}
+section.nosotros .col-imgs-equipo h3{
+    font-family: 'Raleway';
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+section.nosotros .col-imgs-equipo p{
+    font-family: 'Raleway';
+    font-weight: 300;
+    letter-spacing: 0.08em;
+}
+div.equipo-2 p{
+    text-align: center;
+    font-size: 1.85rem;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin-bottom: 40px;
+}
+section.nosotros .col-imgs-equipo .miembro-equipo{
+    opacity: 0;
+}
+section.nosotros .col-imgs-equipo .miembro--show{
+    opacity: 1;
+}
+.miembro--show.col-1{
+    grid-column: 1;
+}
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > div{
+    width: 30%;
+}
+footer div.linea{
+    width: 100%;
+    border: 3px solid #C3985D;
+    width: 650px;
+    margin-left: -380px;
+}
+footer .social-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social-media img{
+    width: 35px;
+    height: 35px;
+}
 /* Responsive */
 /* Menu de navegacion*/
 @media only screen and (min-width: 800px) and (max-width: 1070px){
