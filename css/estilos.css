@@ -283,3 +283,42 @@ footer .social-media img{
     }
 
 }
+/*Footer*/
+@media only screen and (max-width: 1140px){
+    footer .linea-div{
+        display: none;
+    }
+    footer{
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 749px){
+    footer{
+        justify-content: space-between;
+    }
+    footer .logo-footer img{
+        max-width: 100%;
+    }
+    footer .social-media img{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media only screen and (max-width: 500px){
+    footer{
+        flex-direction: column;
+    }
+    footer .logo-footer{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+/*Nosotros*/
+@media only screen and (max-width: 900px){
+    section.nosotros.contenedor{
+        flex-direction: column;
+    }
+    section.nosotros.contenedor .col-txt-equipo, section.nosotros.contenedor .col-equipo{
+        width: 100%;
+    }
+}
