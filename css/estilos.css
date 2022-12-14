@@ -321,4 +321,12 @@ footer .social-media img{
     section.nosotros.contenedor .col-txt-equipo, section.nosotros.contenedor .col-equipo{
         width: 100%;
     }
+    div.equipo-2 p{
+        font-size: 1.65rem;
+    }
+}
+@media only screen and (max-width: 700px){
+    div.equipo-2 p{
+        font-size: 1.5rem;
+    }
 }
