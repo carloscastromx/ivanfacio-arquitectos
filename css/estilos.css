@@ -214,6 +214,177 @@ section.nosotros .col-imgs-equipo .miembro--show{
 .miembro--show.col-1{
     grid-column: 1;
 }
+/*Login*/
+.columnas__login {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.login--img {
+    width: 45%;
+    height: 450px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.formulario--box{
+    width: 650px;
+    margin: 1%;
+    margin-left: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 20px -10px rgb(0 0 0 / 25%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centrado__loginh2{
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+}
+.vector_login--tamaño{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.datos{
+    text-align: left;
+    align-self: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 4px;
+}
+.cuadro__datos{
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 30px;
+    background: #FDF0DD;
+    border-radius: 4px;
+    gap: 5px;
+    margin-top: 5px;
+}
+.correo__img {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.correo__img--tamaño{
+    width: 23px;
+    height: 23px;
+}
+.datos__input {
+    width: 300px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    border: none;
+    background: #FDF0DD;
+    outline: none;
+}
+.datos__input--pass {
+    width: 300px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    border: none;
+    background: #FDF0DD;
+    outline: none;
+}
+.datos__input::placeholder{
+    color: #B6B2B2;
+}
+.correo__relleno {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.correo__relleno--tamaño{
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+}
+.contraseña__p{
+    margin-top: 30px;
+}
+.contraseña__img{
+    width: 30px;
+    height: 30px;
+}
+.contraseña__img--tamaño{
+    width: 23px;
+    height: 23px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.contraseña__relleno{
+    width: 30px;
+    height: 30px;
+}
+.contraseña__relleno--tamaño{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    background: #FDF0DD;
+    outline: none;
+    background-image: url(../img/ocult__icon.svg);
+    border: none;
+    background-repeat: round;
+    cursor: pointer;
+}
+.login__button{
+    width: 200px;
+    height: 50px;
+    background: #6C4B1C;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.center{
+    align-self: center;
+}
+.SinCuenta{
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: 45px;
+}
+.login__registro{
+    color: #C3985D;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /*Footer*/
 footer {
     display: flex;
