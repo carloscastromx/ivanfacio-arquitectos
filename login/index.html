@@ -48,36 +48,36 @@
             <div class="formulario--box">
                 <div class="centrado__loginh2">
                     <h2>¡Bienvenido de regreso!</h2>
-                    <img class="vector_login--tamaño" src="../img/Vector_login.svg" alt="Vector_login" title="vector_login">
+                    <img class="vector_login--tamano" src="../img/Vector_login.svg" alt="Vector_login" title="vector_login">
                 </div>
                 <div class="datos">
                     <p>Correo electrónico</p>
                     <div class="cuadro__datos">
                         <div class="correo__img">
-                            <img class="correo__img--tamaño"src="../img/mail_login.svg" alt="mail" title="mail">
+                            <img class="correo__img--tamano"src="../img/mail_login.svg" alt="mail" title="mail">
                         </div>
                         <div>
                             <input class="datos__input" type="email" name="correo" id="correo" placeholder="correo electrónico">
                         </div>
                         <div class="correo__relleno">
-                            <img class="correo__relleno--tamaño"src="../img/check__login.svg" alt="check__login" title="check__login">
+                            <img class="correo__relleno--tamano"src="../img/check__login.svg" alt="check__login" title="check__login">
                         </div>
                     </div>                    
-                    <p class="contraseña__p">Contraseña</p>
+                    <p class="contrasena__p">Contraseña</p>
                     <div class="cuadro__datos">
-                        <div class="contraseña__img">
-                            <img  class="contraseña__img--tamaño" src="../img/Icon-Lock__contraseña.svg" alt="Icon-Lock__contraseña" title="icon-lock__contraseña">
+                        <div class="contrasena__img">
+                            <img  class="contrasena__img--tamano" src="../img/Icon-Lock__contrasena.svg" alt="Icon-Lock__contrasena" title="icon-lock__contrasena">
                         </div>
                         <div>
-                            <input class="datos__input--pass" type="password" name="contraseña" id="contraseña" placeholder="··············">
+                            <input class="datos__input--pass" type="password" name="contrasena" id="contrasena" placeholder="··············">
                         </div>
-                        <div class="contraseña__relleno">
-                            <button class="contraseña__relleno--tamaño" onclick="MostrarContraseña()"></button>
+                        <div class="contrasena__relleno">
+                            <button class="contrasena__relleno--tamano" id="btn-mostrarcontrasena"></button>
                         </div>
                     </div>    
                 </div>
                 <div class="center">
-                    <button class="login__button">Iniciar sesión</button>
+                    <button class="login__button" id="btn-IniciarSesion">Iniciar sesión</button>
                 </div>
                 <div class="SinCuenta">
                     <p>¿No tienes cuenta? <a href="../registro/index.html" class="login__registro">Regístrate</a></p>
@@ -85,15 +85,15 @@
             </div>
         </div>
         <script>
-            function MostrarContraseña(){
-                var type = document.getElementById("contraseña");
-                if(type.type == "password"){
-                    type.type = "text";
-                }else{
-                    type.type = "password";
-                }
-            }
-          </script>
+            document.getElementById("btn-mostrarcontrasena").addEventListener('click', function(){
+                var type = document.getElementById("contrasena");
+                    if(type.type == "password"){
+                        type.type = "text";
+                    }else{
+                        type.type = "password";
+                    }
+            })
+        </script>
     </main>
 
     <footer class="contenedor">
