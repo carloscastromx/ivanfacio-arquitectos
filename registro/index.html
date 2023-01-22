@@ -39,6 +39,78 @@
             </div>
         </div>
     </header>
+    <main>
+        <div class="columnas__login">
+            <div class="login--img login--img--registro ">
+                <img class="img__login"src="../img/img-login-registro.png" alt="img-login-registro" title="img-registro">
+            </div>
+            <div class="formulario--box">
+                <div class="centrado__registroh2">
+                    <h2 class="registroh2">¡Crearemos el  futuro juntos!</h2>
+                </div>
+                <div class="datos">
+                    <p>Nombre</p>
+                    <div class="cuadro__datos">
+                        <div class="nombre__img">
+                            <img class="img__login nombre__img--tamano" src="../img/icon-profil__registro.svg" alt="icon_profil" title="icon profil">
+                        </div>
+                        <div>
+                            <input class="datos__input" type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                        </div>
+                    </div>
+                    <p class="correo__p">Correo electrónico</p>
+                    <div class="cuadro__datos">
+                        <div class="correo__img">
+                            <img class="img__login correo__img--tamano"src="../img/mail_login.svg" alt="mail" title="mail">
+                        </div>
+                        <div>
+                            <input class="datos__input" type="email" name="correo" id="correo" placeholder="Correo electrónico">
+                        </div>
+                        <div class="correo__relleno">
+                            <img class="img__login correo__relleno--tamano"src="../img/check__login.svg" alt="check__login" title="check__login">
+                        </div>
+                    </div>
+                    <p class="celular__p">Celular</p>
+                    <div class="cuadro__datos">
+                        <div class="celular__img">
+                            <img class="img__login celular__img--tamano" src="../img/Frame__flag.svg" alt="Frame__flag" title="Flag">
+                        </div>
+                        <div>
+                            <input class="datos__input datos__input--celular" type="number" maxlength="10" id="celular" placeholder="Escribe tu celular">
+                        </div>
+                    </div>
+                    <p class="contrasena__p">Contraseña</p>
+                    <div class="cuadro__datos">
+                        <div class="contrasena__img">
+                            <img  class="img__login contrasena__img--tamano" src="../img/Icon-Lock__contrasena.svg" alt="Icon-Lock__contrasena" title="icon-lock__contrasena">
+                        </div>
+                        <div>
+                            <input class="datos__input--pass" type="password" name="contrasena" id="contrasena" placeholder="··············">
+                        </div>
+                        <div class="contrasena__relleno">
+                            <button class="contrasena__relleno--tamano" id="btn-mostrarcontrasena"></button>
+                        </div>
+                    </div> 
+                </div>
+                <div class="center">
+                    <button class="login__button" id="btn-CrearCuenta">Crear cuenta</button>
+                </div>
+                <div class="SinCuenta">
+                    <p>¿Ya tienes cuenta?<a href="../login/index.html" class="login__registro"> Inicia sesión</a></p>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.getElementById("btn-mostrarcontrasena").addEventListener('click', function(){
+                var type = document.getElementById("contrasena");
+                    if(type.type == "password"){
+                        type.type = "text";
+                    }else{
+                        type.type = "password";
+                    }
+            })
+        </script>
+    </main>
     <footer class="contenedor">
         <div class="linea-div">
             <div class="linea"></div>

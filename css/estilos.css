@@ -214,6 +214,330 @@ section.nosotros .col-imgs-equipo .miembro--show{
 .miembro--show.col-1{
     grid-column: 1;
 }
+/*Login*/
+.columnas__login {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.login--img {
+    width: 45%;
+    height: 450px;
+}
+.img__login{
+    width: 100%;
+    height: 100%;
+}
+.formulario--box{
+    width: 650px;
+    margin: 1%;
+    margin-left: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 20px -10px rgb(0 0 0 / 25%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centrado__loginh2{
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+}
+.vector_login--tamano{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.datos{
+    text-align: left;
+    align-self: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 4px;
+}
+.cuadro__datos{
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 30px;
+    background: #FDF0DD;
+    border-radius: 4px;
+    gap: 5px;
+    margin-top: 5px;
+}
+.correo__img {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.correo__img--tamano{
+    width: 23px;
+    height: 23px;
+}
+.datos__input {
+    width: 300px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    border: none;
+    background: #FDF0DD;
+    outline: none;
+}
+.datos__input--pass {
+    width: 300px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    border: none;
+    background: #FDF0DD;
+    outline: none;
+}
+.datos__input::placeholder{
+    color: #B6B2B2;
+}
+.correo__relleno {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.correo__relleno--tamano{
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+}
+.contrasena__p{
+    margin-top: 30px;
+}
+.contrasena__img{
+    width: 30px;
+    height: 30px;
+}
+.contrasena__img--tamano{
+    width: 23px;
+    height: 23px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.contrasena__relleno{
+    width: 30px;
+    height: 30px;
+}
+.contrasena__relleno--tamano{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    background: #FDF0DD;
+    outline: none;
+    background-image: url(../img/ocult__icon.svg);
+    border: none;
+    background-repeat: round;
+    cursor: pointer;
+}
+.login__button{
+    width: 200px;
+    height: 50px;
+    background: #6C4B1C;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.center{
+    align-self: center;
+}
+.SinCuenta{
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: 45px;
+}
+.login__registro{
+    color: #C3985D;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*Registro*/
+.centrado__registroh2{
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 38px;
+}
+.registroh2{
+    font-size: 25px;
+}
+.nombre__img{
+    width: 13px;
+    height: 20px;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+.correo__p{
+    margin-top: 20px;
+}
+.celular__p{
+    margin-top: 20px;
+}
+.celular__img{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.celular__img--tamano{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+.datos__input--celular{
+    margin-top: -2px;
+    background-color: transparent;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.login--img--registro{
+    height: 590px;
+}
+
+/*Bamboo*/
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/banner-bamboo.png);
+    background-repeat: round;
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.04em;   
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    align-items: center;
+    justify-content: center;
+}
+.columnas{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 30px;
+}
+.cuadro{
+    width: 50%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo__bamboo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #6C4B1C;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.subtitulo__bamboo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    color: #6C4B1C;
+}
+.texto__bamboo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #111111;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.linea__bamboo{
+    border-bottom: 5px solid #C3985D ;
+    margin-top: 25px;
+    width: 80%;
+}
+.video__bamboo{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+.video__bamboo iframe{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 75%;
+    height: 270px;
+}
+.lorem__bamboo{
+    width: 45%;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #111111;
+}
+div.lorem__bamboo{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*Footer*/
 footer {
     display: flex;
