@@ -223,7 +223,7 @@ section.nosotros .col-imgs-equipo .miembro--show{
     width: 45%;
     height: 450px;
 }
-img{
+.img__login{
     width: 100%;
     height: 100%;
 }
