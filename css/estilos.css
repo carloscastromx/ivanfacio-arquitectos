@@ -438,6 +438,106 @@ input[type=number] {
     height: 590px;
 }
 
+/*Bamboo*/
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/banner-bamboo.png);
+    background-repeat: round;
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.04em;   
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    align-items: center;
+    justify-content: center;
+}
+.columnas{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 30px;
+}
+.cuadro{
+    width: 50%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo__bamboo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #6C4B1C;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.subtitulo__bamboo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    color: #6C4B1C;
+}
+.texto__bamboo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #111111;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.linea__bamboo{
+    border-bottom: 5px solid #C3985D ;
+    margin-top: 25px;
+    width: 80%;
+}
+.video__bamboo{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+.video__bamboo iframe{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 75%;
+    height: 270px;
+}
+.lorem__bamboo{
+    width: 45%;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #111111;
+}
+div.lorem__bamboo{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*Footer*/
 footer {
     display: flex;
