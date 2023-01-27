@@ -581,18 +581,19 @@ div.lorem__bamboo{
 
 .col-imgs-proyectos {
     display: flex;
-    justify-content: center;
-    margin-top: 35px;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    margin-top: 35px;
     gap: 50px;
+    margin-left: 50px;
 }
 .col-imgs-proyectos img{
-    width: 720px;
-    height: 400px;
+    width: 460px;
+    height: 190px;
 }
 .col-imgs-proyectos--chiquitos img{
-    width: 340px;
-    height: 160px;
+    width: 460px;
+    height: 190px;
 }
 .centrado{
     text-align: center;
