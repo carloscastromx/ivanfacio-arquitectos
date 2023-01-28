@@ -438,6 +438,347 @@ input[type=number] {
     height: 590px;
 }
 
+/*banner incio*/
+.banner-inicio{
+    background: url("../img/fondo-inicio.png")center/cover;
+    background-size: cover;
+    height: 100%;
+    Padding-top: 400px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    color:#fff;
+}
+
+.info_inicio{
+    width: 100%;
+}
+
+.txt_inicio{
+    font-family: 'Raleway';
+    padding: 15px 120px;
+    width: 50%;
+}
+
+.r_sociales{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 950px;
+}
+
+.redes_inicio{
+    background-color: white;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.whatsapp, .facebook, .instagram, .youtube {
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+/*Contacto*/
+.Contenedor-Contacto{
+    height: auto;
+}
+
+
+.Titulo-Contacto{
+    font-family: 'Raleway';
+    justify-content: center;
+    color: #6C4B1C;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.Titulo-Contacto h1{
+    font-weight: 500;
+}
+
+.lineacont{
+    border: 3px solid #C3985D;
+    width: 60%;
+    margin-left: 535px;
+}
+
+.comunicate{
+    margin-top: 50px;
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-around;
+}
+
+.formulario, .formulario2{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadroTxt{
+    border: 1px solid #C3985D;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+}
+
+.cuadroMsj{
+    border: 1px solid #C3985D;
+    resize: none;
+    width: 300px;
+    height: 160px;
+    padding: 10px;
+}  
+
+.info-contacto{
+    background-color: rgb(253, 240, 221);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Txtcont{
+    color: #C3985D ;
+    text-align: center;
+    font-size: 24px;
+}
+
+.dtscont{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    color: #6C4B1C;
+    width: 90%;
+}
+
+.dtscont img{
+    margin-right: 35px;
+    height: 30px;
+}
+
+.imgCont{
+    width: 20%;
+    height: 20%;
+}
+
+.info1,  .info2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
+
+.lineah{
+    border-left: 3px solid #6C4B1C;
+    height: 450px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.enviar{
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.btnEnvio{
+    background-color: rgb(108 75 28);
+    color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.derechos{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    line-height: 400%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Responsive*/
+/*Contacto*/
+@media only screen and (min-width: 800px) and (max-width: 1070px){
+    .comunicate{
+        padding-left: 150px;
+        padding-right: 50px;
+    }
+    .cuadroTxt{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    
+    .cuadroMsj{
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+    } 
+    
+    .lineacont{
+        border: 3px solid #C3985D;
+        width: 65%;
+        margin-left: 300px;
+    }
+    
+}  
+
+@media only screen and (max-width: 799px){
+    .comunicate{
+        display: flex;
+        align-items: stretch;
+        padding-left: 130px;
+        padding-right: 70px;
+    }
+
+    .cuadroTxt{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    
+    .cuadroMsj{
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+    }  
+
+    .lineacont{
+        border: 3px solid #C3985D;
+        width: 65%;
+        margin-left: 215px;
+    }
+
+}
+
+/*Constructora*/
+
+.contenedor_constructora{
+    height:  auto;
+    margin-bottom: 90px
+}
+
+.info-1, .info-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.info-2{
+    margin-top: -9px;
+}
+
+.img_ideologia{
+    width: 50%;
+    height: 50%;
+}
+
+.contenido{
+    padding: 40px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.info-1 .contenido h1{
+    color: #6C4B1C;
+}
+
+.imgfondo{
+    width: 50%;
+    height: 100%;
+}
+
+.imgfondo img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenido h1{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 52px;
+}
+
+.contenido p{
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.info-1 .contenido p{
+    margin-top: 50px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.contenido h3{
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.lineaid{
+    border: 3px solid #C3985D;
+    width: 100%;
+    margin-left: 110px;
+} 
+
+/*Responsive*/
+/*Constructora*/
+
+@media only screen and (min-width: 800px) and (max-width: 1070px){
+    .info-1, .info-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contenido{
+        padding: 0px 49px;
+        padding-top: 20px;
+    }
+    
+    .lineaid{
+        border: 3px solid #C3985D;
+        width: 95%;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 799px){
+    
+    .contenido {
+        padding: 0px 20px;
+        padding-top: 5px;   
+    }   
+
+    .lineaid{
+        border: 3px solid #C3985D;
+        width: 75%;
+        margin-left: 70px;
+    }
+}
+
 /*Bamboo*/
 .banner{
     width: 100%;
