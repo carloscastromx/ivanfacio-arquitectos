@@ -587,13 +587,14 @@ div.lorem__bamboo{
     gap: 50px;
     margin-left: 50px;
 }
-.col-imgs-proyectos img{
-    width: 460px;
-    height: 190px;
+
+.col-imgs-proyectos > div, .col-imgs-proyectos--chiquitos{
+    width: 28%;
 }
-.col-imgs-proyectos--chiquitos img{
-    width: 460px;
-    height: 190px;
+
+.col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img{
+    width: 100%;
+    max-height: 190px;
 }
 .centrado{
     text-align: center;
@@ -606,21 +607,11 @@ div.lorem__bamboo{
     gap: 50px;
     margin-left: 50px;
 }
-.col-imgs-proyectos--chiquito p{
+.col-imgs-proyectos--chiquito p, .col-imgs-proyectos p{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
-    font-size: 35px;
-    line-height: 35px;
-    margin-top: 10px;
-    letter-spacing: 0.1em;
-    color: #6C4B1C;
-}
-.col-imgs-proyectos p{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 35px;
     margin-top: 10px;
     letter-spacing: 0.1em;
