@@ -728,6 +728,39 @@ footer .social-media img{
         margin-bottom: 20px;
     }
 }
+/*Bamboo*/
+@media only screen and (min-width: 320px) and (max-width: 1023px){
+    .columnas {
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        text-align: -webkit-center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video__bamboo {
+        position: sticky;
+        overflow: hidden;
+        width: 80%;
+        height: 285px;
+        margin-left: 13%;
+    }
+    .cuadro{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 80%;
+    }
+    .texto__bamboo {
+        margin-left: 0px;
+    }
+    .linea__bamboo{
+        width: 100%;
+    }
+    .lorem__bamboo{
+        width: 80%;
+    }
+}
 /*Nosotros*/
 @media only screen and (max-width: 900px){
     section.nosotros.contenedor{
