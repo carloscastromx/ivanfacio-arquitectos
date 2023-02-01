@@ -579,14 +579,15 @@ div.lorem__bamboo{
     width: 550px;
 }
 
-.col-imgs-proyectos {
+.col-imgs-proyectos{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 35px;
-    gap: 50px;
+    gap: 43px;
     margin-left: 50px;
 }
+
 
 .col-imgs-proyectos > div, .col-imgs-proyectos--chiquitos{
     width: 28%;
@@ -604,7 +605,7 @@ div.lorem__bamboo{
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 35px;
-    gap: 50px;
+    gap: 43px;
     margin-left: 50px;
 }
 .col-imgs-proyectos--chiquito p, .col-imgs-proyectos p{
@@ -751,6 +752,56 @@ footer .social-media img{
     .lorem__bamboo{
         width: 80%;
     }
+}
+/*Proyectos*/
+@media only screen and (min-width: 501px) and (max-width: 1260px){
+    .col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img {
+        width: 100%;
+        max-height: 110px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px){
+    .banner_proyectos{
+        height: 215px;
+        font-size: 42px;
+    }
+    .columnas__proyectos{
+        justify-content: start;
+    }
+    .linea__proyectos{
+        width: 280px;
+    }
+    .col-imgs-proyectos{
+        width: 100%;
+        gap: 30px;
+    }
+    .col-imgs-proyectos > div, .col-imgs-proyectos--chiquitos{
+        width: 33%;
+    }
+    .col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img {
+        width: 100%;
+        max-height: 50;
+    }
+    .col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img{
+        max-height: 25%;
+    }
+    .col-imgs-proyectos--chiquito p, .col-imgs-proyectos p{
+        font-size: 15px;
+    }
+    .col-imgs-proyectos{
+        margin-left: 50px;
+    }
+    .columnas__proyectos--margin-top{
+        margin-top: 65px;
+    }
+    .col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img {
+        max-height: 63px;
+    }
+    .texto__anos_proyectos{
+        margin-left: 30px;
+    }
+
+
 }
 /*Nosotros*/
 @media only screen and (max-width: 900px){
