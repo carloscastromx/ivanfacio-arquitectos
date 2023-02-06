@@ -1074,9 +1074,15 @@ footer .social-media img{
     .video__bamboo {
         position: sticky;
         overflow: hidden;
-        width: 80%;
+        width: 100%;
         height: 285px;
-        margin-left: 13%;
+    }
+    .video__bamboo iframe {
+        position: absolute;
+        top: 10px;
+        left: 10%;
+        width: 80%;
+        height: 270px;
     }
     .cuadro{
         display: flex;
@@ -1100,6 +1106,7 @@ footer .social-media img{
         width: 100%;
         max-height: 110px;
     }
+    
 }
 @media only screen and (min-width: 320px) and (max-width: 500px){
     .banner_proyectos{
@@ -1113,8 +1120,13 @@ footer .social-media img{
         width: 280px;
     }
     .col-imgs-proyectos{
-        width: 100%;
-        gap: 30px;
+        width: 105%;
+        column-gap: 25px;
+    }
+    .col-imgs-proyectos--chiquito{
+        column-gap: 25px;
+        gap: 25px;
+        width: 105%;
     }
     .col-imgs-proyectos > div, .col-imgs-proyectos--chiquitos{
         width: 33%;
@@ -1143,6 +1155,43 @@ footer .social-media img{
     }
 
 
+}
+/*Iniciar Sesion*/
+@media only screen and (min-width: 320px) and (max-width: 1260px){
+    .columnas__login {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 20px;
+        margin-top: 20px;
+    }
+    .login--img {
+        width: 100%;
+        height: 100%;
+    }
+    .formulario--box {
+        width: 90%;
+    }
+    .datos{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .cuadro__datos{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .Mediaq, .datos__input{
+        width: 100%;
+    }
+    .Mediaq, .datos__input--pass {
+        width: 100%;
+    }
+    .SinCuenta{
+        margin-bottom: 20px;
+    } 
 }
 /*Nosotros*/
 @media only screen and (max-width: 900px){
