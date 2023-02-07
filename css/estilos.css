@@ -1122,33 +1122,37 @@ footer .social-media img{
     .col-imgs-proyectos{
         width: 105%;
         column-gap: 25px;
+        display: flex;
+        margin-top: 35px;
+        gap: 43px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
     }
     .col-imgs-proyectos--chiquito{
         column-gap: 25px;
         gap: 25px;
         width: 105%;
+        display: flex;
+        margin-top: 35px;
+        gap: 43px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
     }
     .col-imgs-proyectos > div, .col-imgs-proyectos--chiquitos{
-        width: 33%;
+        width: 60%;
+        height: 100%;
     }
     .col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img {
         width: 100%;
-        max-height: 50;
-    }
-    .col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img{
         max-height: 25%;
     }
     .col-imgs-proyectos--chiquito p, .col-imgs-proyectos p{
         font-size: 15px;
     }
-    .col-imgs-proyectos{
-        margin-left: 50px;
-    }
     .columnas__proyectos--margin-top{
         margin-top: 65px;
-    }
-    .col-imgs-proyectos img, .col-imgs-proyectos--chiquitos img {
-        max-height: 63px;
     }
     .texto__anos_proyectos{
         margin-left: 30px;
